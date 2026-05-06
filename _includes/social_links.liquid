@@ -1,0 +1,64 @@
+{%- comment -%}
+  Social links include for compatibility with jekyll-socials plugin.
+  Generates social media links from the socials.yml data file.
+  This provides a fallback for environments where jekyll-socials gem is not available.
+{%- endcomment -%}
+
+{%- assign socials_data = site.data.socials -%}
+
+{%- if socials_data.github_username -%}
+  <a href="https://github.com/{{ socials_data.github_username }}" class="social-icon" title="GitHub">
+    <i class="fab fa-github"></i>
+  </a>
+{%- endif -%}
+
+{%- if socials_data.linkedin_username -%}
+  <a href="https://linkedin.com/in/{{ socials_data.linkedin_username }}" class="social-icon" title="LinkedIn">
+    <i class="fab fa-linkedin"></i>
+  </a>
+{%- endif -%}
+
+{%- if socials_data.email -%}
+  <a href="mailto:{{ socials_data.email }}" class="social-icon" title="Email">
+    <i class="fas fa-envelope"></i>
+  </a>
+{%- endif -%}
+
+{%- if socials_data.scholar_userid -%}
+  <a href="https://scholar.google.com/citations?user={{ socials_data.scholar_userid }}" class="social-icon" title="Google Scholar">
+    <i class="ai ai-google-scholar"></i>
+  </a>
+{%- endif -%}
+
+{%- if socials_data.inspirehep_id -%}
+  <a href="https://inspirehep.net/authors/{{ socials_data.inspirehep_id }}" class="social-icon" title="INSPIRE HEP">
+    <i class="ai ai-inspire"></i>
+  </a>
+{%- endif -%}
+
+{%- if socials_data.rss_icon -%}
+  <a href="{{ site.baseurl }}/feed.xml" class="social-icon" title="RSS Feed">
+    <i class="fas fa-rss"></i>
+  </a>
+{%- endif -%}
+
+{%- if socials_data.custom_social -%}
+  <a href="{{ socials_data.custom_social.url }}" class="social-icon" title="{{ socials_data.custom_social.title }}">
+    <img src="{{ site.baseurl }}/assets/img/{{ socials_data.custom_social.logo }}" alt="{{ socials_data.custom_social.title }}" style="width: 20px; height: 20px;">
+  </a>
+{%- endif -%}
+
+{%- if socials_data.wechat_qr -%}
+  <button class="social-icon" id="wechat-qr-btn" title="WeChat">
+    <i class="fab fa-weixin"></i>
+  </button>
+  <div id="wechat-qr-overlay" class="wechat-qr-overlay" style="display: none;">
+    <img src="{{ site.baseurl }}/assets/img/{{ socials_data.wechat_qr }}" alt="WeChat QR Code">
+  </div>
+{%- endif -%}
+
+{%- if socials_data.whatsapp_number -%}
+  <a href="https://wa.me/{{ socials_data.whatsapp_number }}" class="social-icon" title="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+{%- endif -%}

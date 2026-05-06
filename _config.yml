@@ -227,7 +227,9 @@ plugins:
   - jekyll-terser
   - jekyll-twitter-plugin
   - jemoji
-
+  - jekyll-scholar
+  - jekyll-terser
+  
 # Sitemap settings
 defaults:
   - scope:

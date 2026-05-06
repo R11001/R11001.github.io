@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: #<a href='https://www.unisa.it'>Università degli Studi di Salerno</a>
 

@@ -61,6 +61,32 @@
           }
         }
 
+        .venue-badge {
+          display: block;
+          width: 100%;
+          background-color: var(--global-theme-color);
+          color: var(--global-card-bg-color) !important;
+          border-radius: 0.75rem;
+          padding: 0.45rem 0.65rem;
+          margin-bottom: 0.5rem;
+          text-align: center;
+          font-size: 0.85rem;
+          line-height: 1.2;
+          word-break: break-word;
+        }
+
+        .venue-badge-label {
+          display: block;
+          font-weight: 700;
+          margin-bottom: 0.15rem;
+        }
+
+        .venue-badge-name {
+          display: block;
+          font-size: 0.85rem;
+          font-weight: 700;
+        }
+
         .award {
           color: var(--global-theme-color) !important;
           border: 1px solid var(--global-theme-color);

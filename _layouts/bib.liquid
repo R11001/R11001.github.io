@@ -24,6 +24,25 @@
         {% else %}
           <abbr class="badge rounded w-100">{{ entry.abbr }}</abbr>
         {% endif %}
+      {% else %}
+        {% assign badge_text = entry.venue_badge | default: '' %}
+        {% if badge_text == '' %}
+          {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
+          {% if entry.type == 'article' and entry.journal %}
+            {% assign badge_text = entry.journal %}
+          {% elsif proceedings contains entry.type and entry.booktitle %}
+            {% assign badge_text = entry.booktitle %}
+          {% elsif entry.journal %}
+            {% assign badge_text = entry.journal %}
+          {% elsif entry.booktitle %}
+            {% assign badge_text = entry.booktitle %}
+          {% endif %}
+        {% endif %}
+        {% if badge_text != '' %}
+          <div class="venue-badge">
+            <span class="venue-badge-name">{{ badge_text | truncate: 30, '...' }}</span>
+          </div>
+        {% endif %}
       {% endif %}
       {% if entry.preview %}
         {% if entry.preview contains '://' %}

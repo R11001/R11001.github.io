@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello, I'm Roberto. 
+Hi, I'm Roberto. 
 
 I received a PhD in Computer Science from the <a href='https://www.unisa.it'>University of Salerno</a>, where I was supervised by Ugo Vaccaro. You can find my thesis <a href='https://tesidottorato.depositolegale.it/handle/20.500.14242/360468'>here</a>.
 

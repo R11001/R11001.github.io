@@ -32,4 +32,4 @@ I received a PhD in Computer Science from the <a href='https://www.unisa.it'>Uni
 
 My research interests primarily focus on Information Theory, Algorithm Design, Data Structures, and Binary Codes. However, since I am naturally curious, I am easily drawn to a wide range of topics across Computer Science.
 
- You can find my publications [here](/al-folio/publications/) and check my full background [here](/al-folio/cv/).
+ You can find my publications [here](/publications/) and check my full background [here](/cv/).

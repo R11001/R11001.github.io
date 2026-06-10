@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-05-13'
+  last_updated: '2026-06-10'
 papers:
   gXWAMiAAAAAJ:2osOgNQ5qMEC:
     citations: 2
     title: 'Optimal Binary Variable-Length Codes with a Bounded Number of 1''s Per Codeword: Design, Analysis, and Applications'
     year: '2025'
   gXWAMiAAAAAJ:9yKSN-GCB0IC:
-    citations: 5
+    citations: 6
     title: Bounds and algorithms for alphabetic codes and binary search trees
     year: '2024'
   gXWAMiAAAAAJ:IjCSPb-OGe4C:
@@ -34,7 +34,7 @@ papers:
     title: Entropic Bounds on the Average Length of Codes with a Space
     year: '2024'
   gXWAMiAAAAAJ:u5HHmVD_uO8C:
-    citations: 3
+    citations: 4
     title: A note on equivalent conditions for majorization
     year: '2024'
   gXWAMiAAAAAJ:zYLM7Y9cAGgC:

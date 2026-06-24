@@ -15,7 +15,6 @@ cv:
   #    username: example
 
   address:
-    street: Contrada Valloni 5
     city: Bagnoli Irpino
     region: Italy
     postalCode: 83043

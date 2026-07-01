@@ -59,6 +59,14 @@ cv:
     Experience:
       - company: University of Salerno
         url: https://www.unisa.it/
+        position: Postdoctoral Researcher
+        location: Fisciano, SA, Italy
+        start_date: 2026
+        end_date: currently
+        summary: Postdoctoral researcher in Theoretical Computer Science and Information Theory.
+
+      - company: University of Salerno
+        url: https://www.unisa.it/
         position: PhD candidate
         location: Fisciano, SA, Italy
         start_date: 2022

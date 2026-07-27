@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-08'
+  last_updated: '2026-07-27'
 papers:
   gXWAMiAAAAAJ:2osOgNQ5qMEC:
     citations: 2
@@ -20,6 +20,10 @@ papers:
   gXWAMiAAAAAJ:UeHWp8X0CEIC:
     citations: 0
     title: A Finite-Sample Strong Converse for Binary Hypothesis Testing via (Reverse) R\'enyi Divergence
+    year: '2026'
+  gXWAMiAAAAAJ:Y0pCki6q_DkC:
+    citations: 1
+    title: The sharma-mittal entropy is subadditive and supermodular on the majorization lattice
     year: '2026'
   gXWAMiAAAAAJ:d1gkVwhDpl0C:
     citations: 2

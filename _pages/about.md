@@ -9,7 +9,6 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Contrada Valloni 5</p>
     <p>Bagnoli Irpino (AV), Italy, 83043</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"

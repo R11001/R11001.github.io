@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-05-13'
+  last_updated: '2026-08-03'
 papers:
   gXWAMiAAAAAJ:2osOgNQ5qMEC:
     citations: 2
     title: 'Optimal Binary Variable-Length Codes with a Bounded Number of 1''s Per Codeword: Design, Analysis, and Applications'
     year: '2025'
   gXWAMiAAAAAJ:9yKSN-GCB0IC:
-    citations: 5
+    citations: 6
     title: Bounds and algorithms for alphabetic codes and binary search trees
     year: '2024'
   gXWAMiAAAAAJ:IjCSPb-OGe4C:
@@ -21,12 +21,16 @@ papers:
     citations: 0
     title: A Finite-Sample Strong Converse for Binary Hypothesis Testing via (Reverse) R\'enyi Divergence
     year: '2026'
+  gXWAMiAAAAAJ:Y0pCki6q_DkC:
+    citations: 1
+    title: The sharma-mittal entropy is subadditive and supermodular on the majorization lattice
+    year: '2026'
   gXWAMiAAAAAJ:d1gkVwhDpl0C:
     citations: 2
     title: Hardness and Approximability of Dimension Reduction on the Probability Simplex
     year: '2024'
   gXWAMiAAAAAJ:qjMakFHDy7sC:
-    citations: 3
+    citations: 4
     title: Old and new results on alphabetic codes
     year: '2025'
   gXWAMiAAAAAJ:u-x6o8ySG0sC:

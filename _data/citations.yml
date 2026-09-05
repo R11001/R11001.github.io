@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-03'
+  last_updated: '2026-08-21'
 papers:
   gXWAMiAAAAAJ:2osOgNQ5qMEC:
     citations: 2
@@ -21,9 +21,17 @@ papers:
     citations: 0
     title: A Finite-Sample Strong Converse for Binary Hypothesis Testing via (Reverse) R\'enyi Divergence
     year: '2026'
+  gXWAMiAAAAAJ:W7OEmFMy1HYC:
+    citations: 0
+    title: "An information theoretic treatment of Yager\u2019s probability distribution negation: R. Bruno, U. Vaccaro"
+    year: '2026'
   gXWAMiAAAAAJ:Y0pCki6q_DkC:
     citations: 1
     title: The sharma-mittal entropy is subadditive and supermodular on the majorization lattice
+    year: '2026'
+  gXWAMiAAAAAJ:YsMSGLbcyi4C:
+    citations: 0
+    title: An Information Theoretic Treatment of Yager's Probability Distribution Negation
     year: '2026'
   gXWAMiAAAAAJ:d1gkVwhDpl0C:
     citations: 2
